@@ -119,6 +119,15 @@ var actors = [
     modes: ['realtime', 'backtest']
   },
   {
+    name: 'MySQL logger',
+    description: '',
+    slug: 'mysqlLogger',
+    async: false,
+    silent: true,
+    modes: ['realtime', 'backtest']
+  },
+
+  {
     name: 'Profit Simulator',
     description: 'Paper trader that logs fake profits.',
     slug: 'profitSimulator',
