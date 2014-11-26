@@ -121,6 +121,11 @@ config.adviceLogger = {
   enabled: true
 }
 
+config.mysqlLogger = {
+  enabled: true
+}
+
+
 // do you want Gekko to calculate the profit of its own advice?
 config.profitSimulator = {
   enabled: true,
